@@ -9,10 +9,10 @@ from gender import Gender
 from models import Employee
 from mongoengine import connect
 
-connect(
+'''connect(
     db="employeedb",
     host="mongodb+srv://admin:admin@cluster0.teul3as.mongodb.net/?appName=Cluster0"
-)
+)'''
 
 em = Employee_manager()
 
